@@ -1,8 +1,5 @@
 function check(form){
 	
-	var user = document.getElementById('username');
-	var pass = document.getElementById('password');
-	
 	var coruser= "test";
 	var corpass= "123";
  
