@@ -1,0 +1,171 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+
+.body{
+    position: fixed; 
+    overflow-y: scroll;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(makassar-city.jpg);
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: blur(0px);
+	
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 35px);
+	right: calc(50% + 10px);
+	text-align: right
+	
+}
+
+.header div{
+	float: left;
+	color: #000000;
+	font-family: 'Exo', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow:
+    -1px -1px 0 #ffffff,  
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+.header div span{
+	color: #F29E20 !important;
+	text-shadow:
+    -1px -1px 0 #000000,  
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% + 10px);
+	height: 150px;
+	width: 315px;
+	padding: 10px;
+	border: 3px solid #000000;
+	background-color: rgba(255, 255, 153, 0.6);
+}
+
+.header-login {
+    position: absolute;
+	bottom: calc(50% + 75px);
+	left: calc(50% + 15px);
+	color: #F29E20;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow:
+    -1px -1px 0 #000000,  
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+
+    }
+	
+.sign-up {
+    position: absolute;
+	color: #000000;
+	top: calc(50% + 95px);
+	left: calc(50% + 15px);
+	width: 315px;
+	padding: 10px;
+	text-align: right;
+    }
+	
+a {
+    color: #000000;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	text-shadow:
+    -1px -1px 0 #ffffff,  
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+.login input[type=text]{
+	width: 300px;
+	height: 30px;
+	background: rgba(230, 230, 230,0.8);
+	border: 2px solid rgba(128, 128, 128,0.8);
+	border-radius: 2px;
+	color:#000000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 6px;
+}
+
+.login input[type=password]{
+	width: 300px;
+	height: 30px;
+	background: rgba(230, 230, 230,0.8);
+	border: 2px solid rgba(128, 128, 128,0.8);
+	border-radius: 2px;
+	color: #000000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=button]{
+	width: 315px;
+	height: 40px;
+	background: #ffff4d;
+	border: 2px solid #4d4d00;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #1a1a00;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 2px solid rgba(26, 26, 26,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 2px solid rgba(26, 26, 26,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,0,0,0.8);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,0,0,0.8);
+}
